@@ -55,7 +55,7 @@ Caso não esteja utilizando o uv
 
 No terminal, você notará a saída
 
-.. figure:: ../images/PrimeiroRobotExecucao.png
+.. figure:: ../imagens/PrimeiroRobotExecucao.png
    :width: 500px
    :align: center
 
