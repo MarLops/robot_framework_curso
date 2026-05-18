@@ -81,13 +81,17 @@ name = "robot-framework-curso"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "requests" },
     { name = "robotframework" },
+    { name = "robotframework-pabot" },
     { name = "robotframework-requests" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "requests", specifier = ">=2.34.0" },
     { name = "robotframework", specifier = ">=7.4.2" },
+    { name = "robotframework-pabot", specifier = ">=5.2.2" },
     { name = "robotframework-requests", specifier = ">=0.9.7" },
 ]
 
@@ -98,6 +102,18 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/19/f3/ad51daf85d95848831601851598640f951a47a9f9de88039235cf58c5bb9/robotframework-7.4.2.tar.gz", hash = "sha256:1c934e7f43600de407860cd2bd2fdc41adad4a4a785d8b46b1ed485fdc0f6c9f", size = 654405, upload-time = "2026-03-03T16:28:54.899Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/ef/35/fd2385b15f6d814f1801bcbd3d54b4c61a1bfc3a1a0fe023dc15551c5fe4/robotframework-7.4.2-py3-none-any.whl", hash = "sha256:6e80f84cdc997bdde2abb6b729ac3531457ecf6d2e41abfb87a541877ab367bf", size = 807056, upload-time = "2026-03-03T16:28:51.638Z" },
+]
+
+[[package]]
+name = "robotframework-pabot"
+version = "5.2.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "robotframework" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/d6/16/285f1737483a93f7ab38456e97bd34d101a4a9713ba01050fecf51096bef/robotframework_pabot-5.2.2.tar.gz", hash = "sha256:497c3d72551c76eda21029df6a28c6b2ed227e63c4a8510e1c6a0690b9e2be91", size = 106974, upload-time = "2026-02-18T21:04:22.827Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f5/15/f5da87828441f53f5126dda3dd1fdf1fd73b8f5fdf490659b56dd2dc3a80/robotframework_pabot-5.2.2-py3-none-any.whl", hash = "sha256:e7b95d031e9f04b77312b04a1fd835b9791f022b3436b63b507a720bfec05bb4", size = 71801, upload-time = "2026-02-18T21:04:21.313Z" },
 ]
 
 [[package]]

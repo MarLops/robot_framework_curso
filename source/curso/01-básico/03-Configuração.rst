@@ -52,6 +52,8 @@ Observação: a biblioteca OperationSystem disponibiliza algumas variaveis como 
 
 exercícios
 
-1. Utilizando a biblioteca OperatingSystem e a lista de keywords disponível (), crie uma tarefa que criara uma pasta e crie um arquivo .txt dentro desta pasta
+1. Utilizando a biblioteca OperatingSystem e a lista de keywords, crie uma tarefa que criara uma pasta e crie um arquivo .txt dentro desta pasta
+Dica: utiliza ${/} ou inves de / para passar o caminho do arquivo. ${/} serve para lidar com sistemas diferentes diferentes
 
 2. Utilizando a biblioteca RequestsLibrary, crie uma tarefa que faça uma requisição GET no link https://pokeapi.co/api/v2/pokemon/1 e salve o resultado em formato json
+Dica: para instalar a biblioteca, verifica o link https://docs.robotframework.org/docs/different_libraries/requests
