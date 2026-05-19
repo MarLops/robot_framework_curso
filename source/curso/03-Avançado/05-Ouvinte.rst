@@ -1,5 +1,3 @@
-.. _ouvinte-listener:
-
 Ouvinte (Listener) do Robot Framework
 =====================================
 
