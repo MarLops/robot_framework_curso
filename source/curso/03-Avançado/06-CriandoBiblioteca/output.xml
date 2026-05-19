@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-05-19T12:13:20.678479" rpa="false" schemaversion="5">
+<suite id="s1" name="Main" source="C:\Users\USER\Documents\Projects\robot_framework_curso\source\curso\03-Avançado\06-CriandoBiblioteca\Main.robot">
+<test id="s1-t1" name="Log my own" line="6">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>teste</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-05-19T12:13:20.765968" elapsed="0.000662"/>
+</kw>
+<kw name="My Log" owner="my_library.main.Main">
+<arg>message='teste my'</arg>
+<tag>console</tag>
+<tag>custom</tag>
+<tag>logging</tag>
+<doc>Logs a custom message to the Robot Framework console.</doc>
+<status status="PASS" start="2026-05-19T12:13:20.767028" elapsed="0.000334"/>
+</kw>
+<status status="PASS" start="2026-05-19T12:13:20.764640" elapsed="0.003115"/>
+</test>
+<status status="PASS" start="2026-05-19T12:13:20.681498" elapsed="0.087398"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Main" id="s1" pass="1" fail="0" skip="0">Main</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
