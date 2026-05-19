@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.4 on win32)" generated="2026-05-19T10:46:19.370078" rpa="false" schemaversion="5">
+<suite id="s1" name="Main" source="C:\Users\USER\Documents\Projects\robot_framework_curso\source\curso\03-Avançado\05-Ouvinte\Main.robot">
+<test id="s1-t1" name="Log To Console" line="6">
+<kw name="Log Message With Listener">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Mensagem enviada para o console via keyword</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-05-19T10:46:19.457679" elapsed="0.000595"/>
+</kw>
+<status status="PASS" start="2026-05-19T10:46:19.456840" elapsed="0.001672"/>
+</kw>
+<status status="PASS" start="2026-05-19T10:46:19.455771" elapsed="0.003239"/>
+</test>
+<status status="PASS" start="2026-05-19T10:46:19.400992" elapsed="0.059029"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Main" id="s1" pass="1" fail="0" skip="0">Main</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,20 @@
+2026-05-19T10:41:37.324089 - Listener started
+2026-05-19T10:41:37.375643 - START SUITE: Main
+2026-05-19T10:41:37.378904 - Test 'Log To Console' ended with status PASS.
+2026-05-19T10:41:37.444718 - Listener stopped
+2026-05-19T10:44:53.414722 - Listener started
+2026-05-19T10:44:53.474607 - START SUITE: Main
+2026-05-19T10:44:53.485362 - Test 'Log To Console' ended with status PASS.
+2026-05-19T10:44:53.547996 - Listener stopped
+2026-05-19T10:45:08.528319 - Listener started
+2026-05-19T10:45:08.579963 - START SUITE: Main
+2026-05-19T10:45:08.584523 - Test 'Log To Console' ended with status PASS.
+2026-05-19T10:45:08.650826 - Listener stopped
+2026-05-19T10:46:19.398276 - Listener started
+2026-05-19T10:46:19.455566 - START SUITE: Main
+2026-05-19T10:46:19.456895 - START Keyword: Log Message With Listener
+2026-05-19T10:46:19.457723 - START Keyword: Log To Console
+2026-05-19T10:46:19.458306 - End Keyword: Log To Console
+2026-05-19T10:46:19.458551 - End Keyword: Log Message With Listener
+2026-05-19T10:46:19.459026 - Test 'Log To Console' ended with status PASS.
+2026-05-19T10:46:19.519086 - Listener stopped
